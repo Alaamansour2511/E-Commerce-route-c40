@@ -48,9 +48,14 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.support.annotations)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    //Retrofit
+    implementation (libs.retrofit2.retrofit)
+     //gson
+     implementation (libs.converter.gson)
     //navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
@@ -58,7 +63,6 @@ dependencies {
     implementation(libs.sdp.android)
     // ssp
     implementation(libs.ssp.android)
-
-
-
+    //logging interceptor
+    implementation(libs.logging.interceptor)
 }
