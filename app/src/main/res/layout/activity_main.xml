@@ -37,17 +37,16 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
+            style="@style/bottom_navigation"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
-            android:visibility="visible"
-            app:menu="@menu/home_navigation_menu"
-            style="@style/bottom_navigation"
-            app:itemIconTint="@color/nav_item_color"
-            app:itemBackground="@drawable/nav_item_background"
-            app:labelVisibilityMode="unlabeled"
             android:background="@color/main_color"
+            android:visibility="visible"
+            app:itemBackground="@drawable/nav_item_background"
             app:itemIconSize="@dimen/_30sdp"
-            />
+            app:itemIconTint="@color/nav_item_color"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/home_navigation_menu" />
     </com.google.android.material.card.MaterialCardView>
 
 
